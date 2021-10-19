@@ -1,0 +1,2101 @@
+{% load static%}
+<!doctype html>
+<html lang="zxx">
+    
+
+<head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS --> 
+        <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+        <!-- Animate CSS --> 
+        <link rel="stylesheet" href="{% static 'assets/css/animate.min.css' %}">
+        <!-- Meanmenu CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
+        <!-- Boxicons CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/boxicons.min.css' %}">
+        <!-- Flaticon CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
+        <!-- Nice Select CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/nice-select.min.css' %}">
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+        <!-- Owl Carousel Default CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/owl.theme.default.min.css' %}">
+        <!-- Odometer CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/odometer.min.css' %}">
+        <!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.min.css' %}">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}?{% now 'U' %}">
+        <!-- Responsive CSS -->
+		<link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+		
+		<title>gallery- Vie Fashion  Week</title>
+        <meta name="description" content="
+ Dubai, 0000000, viefashionweek@gmail.com">
+               
+    <meta name="author" content="Vie">
+
+        <link rel="icon" type="image/png" href="{% static 'assets/img/vfw.png' %}">
+    </head>
+
+    <body>
+        
+        <!-- Start Preloader Area -->
+        <div class="preloader">
+            <div class="preloader">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- End Preloader Area -->
+
+        
+        <!--connect--->
+
+        <div class="buy-theme alt-font">
+            <a href="tel:00971-0000000">
+                <img src="{% static 'assets/img/icon/call.png' %}">
+                <span>Call Us</span></a></div>
+
+        <div class="all-demo alt-font">
+            <a href="https://api.whatsapp.com/send?phone=+971557628296&amp;text=Welcome%20to%20Aspire%20Foodstuff!%20How%20can%20I%20help%20you?">
+                <img src="{% static 'assets/img/icon/what.png' %}">
+                <span>Whatsapp</span></a></div>
+        <!--end--->
+        <!-- Start Top Header Area -->
+        <div class="top-header-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <ul class="top-header-information">
+                            <li>
+                                <i class='bx bxs-map'></i>
+                                Dubai
+                            </li>
+                            <li>
+                                <i class='bx bx-envelope'></i>
+                                <a href="mailto:viefashionweek@gmail.com">viefashionweek@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <ul class="top-header-social">
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class='bx bxl-facebook'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class='bx bxl-twitter'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.pinterest.com/pin/33143747235864963/" target="_blank">
+                                    <i class='bx bxl-pinterest-alt'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class='bx bxl-linkedin'></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Header Area -->
+  <!-- Start Navbar Area -->
+  <div class="navbar-area">
+    <div class="main-responsive-nav">
+        <div class="container">
+            <div class="main-responsive-menu">
+                <div class="logo">
+                    <a href="#">
+                        <img src="{% static 'assets/img/newlogo.png' %}" alt="image" height="100" width="100">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-navbar">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="{% static 'assets/img/newlogo.png' %}" alt="image" height="100" width="100">
+                </a>
+
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="{% url 'index' %}" class="nav-link">
+                                Home 
+                               
+                            </a>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'about' %}" class="nav-link">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'sponsors' %}" class="nav-link">
+                                Sponsors
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'designers' %}" class="nav-link active">
+                                Designers
+                            </a>
+                        </li>
+
+                        
+                        <li class="nav-item">
+                            <a href="{% url 'gallery' %}" class="nav-link">
+                                Gallery
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                Register
+                            </a>
+                        </li>
+
+                        
+                        <li class="nav-item">
+                            <a href="{% url 'contact' %}" class="nav-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="others-options d-flex align-items-center">
+                        
+
+                        
+
+                        
+
+                        <div class="option-item">
+                            <div class="burger-menu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    
+</div>
+<!-- End Navbar Area -->
+
+<!-- Sidebar Modal -->
+<div class="sidebar-modal">
+    <div class="sidebar-modal-inner">
+        <div class="sidebar-about-area">
+            <div class="title">
+                <h2>About Us</h2>
+                <p>Vie Fashion Week (VFW) founded and created by Fashion Designers Akhil & Aiswarya, A Square London – The Fashion House.
+                    VFW is a very unique Fashion Week project by A Square London. Through VFW, the designer duo want to bring the world of fashion on to a single platform. They create the biggest, stunning, and innovative fashion runway experience in the world of fashion. Fashion Designers/Brands from across the globe showcase and exhibit their amazing creativity at VFW to enhance their brand visibility and sale.
+                    Global Designers at VFW gives the fashion world to witness the amalgamation of different Indigenous, international culture and latest trends on a single platform. It also brings the race, color and humanity together at VFW by saying “We don’t stand for Discrimination”.
+                    Designers, Boutiques, Textiles, Beauty Products, Accessories, Manufactures of Fabrics, Government and private entities will exhibit their latest Designs, Products, and Cutting Edge Technology to the world of fashion at VFW. Participants and guests can interact with Media, Celebrities, Experts, Bloggers, Vloggers, and Social Media Influencers to increase their business to a higher level.
+                    We bring the world of Fashion on to a single platform through VFW. We aim to be one of the top five fashion weeks in the world by 2030. </p>
+            </div>
+        </div>
+
+        
+
+        <div class="sidebar-contact-area">
+            <div class="contact-info">
+                <div class="contact-info-content">
+                    <h2>
+                        <a href="tel:000000">
+                            (+971) 0000000
+                        </a>
+                        <span>OR</span>
+                        <a href="mailto:viefashionweek@gmail.com">
+                            viefashionweek@gmail.com
+                        </a>
+                    </h2>
+
+                    <ul class="social">
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class='bx bxl-instagram'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class='bx bxl-linkedin'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class='bx bxl-pinterest-alt'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class='bx bxl-youtube'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <span class="close-btn sidebar-modal-close-btn">
+            <i class="flaticon-cancel"></i>
+        </span>
+    </div>
+</div>
+<!-- End Sidebar Modal -->
+
+<!-- Start Page Banner -->
+<div class="page-banner-area">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="page-banner-content">
+                    <h2>Gallery</h2>
+                    <ul style="color: gold;">
+                        <li>
+                            <a href="#">ALL</a>
+                        </li>
+						<li>
+                            <a href="{% url 'nine' %}">VFW DUBAI 2019</a>
+                        </li>
+						<li>
+                            <a href="{% url 'seven' %}">VFW DUBAI 2017</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Page Banner -->
+
+	
+<section class="blog-area pt-100 pb-100">
+   <marquee direction="up"> <h3 style="text-shadow:2px 2px 4px gold ;">Our Designers</h3></marquee>
+   <marquee direction="left">    <h1 style="color: gold ; text-shadow:2px 2px 4px #000000">EDITION 2019</h1></marquee>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0001.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0038.jpg' %}" alt="image"></a>
+                              
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0082.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0131.jpg' %}" alt="image"></a>
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0150.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0156.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0169.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0184.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0187.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0193.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0204.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0212.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0218.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0223.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0225.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0226.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0239.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0241.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0245.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0247.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0254.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0260.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0261.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0269.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0270.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0280.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0284.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0294.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0306.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0309.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0320.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0345.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0353.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0362.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0372.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0391.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0396.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0403.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0405.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0411.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-425.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-431.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0440.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0447.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0461.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0496.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0558.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0559.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0563.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0578.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0585.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0595.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0590.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0820.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0949.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-1476.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-1487.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-1501.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-1506.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9292.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9294.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9303.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9311.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9316.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9317.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9319.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9322.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9367.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9371.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9392.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9400.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9421.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9455.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9451.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9468.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9495.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9531.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9545.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9673.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9688.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9693.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9698.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9720.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9729.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9746.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9753.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9767.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9772.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9776.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9792.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9827.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9838.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9839.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9846.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9857.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9871.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9890.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9932.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9946.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9971.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-9977.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-1061.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-1065.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-1452.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-1453.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-1456.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3275.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3276.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3277.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3278.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3279.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3281.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3282.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3283.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3284.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3285.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3286.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3287.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3288.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3291.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3293.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3294.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3295.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3298.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3299.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3300.jpg' %}" alt="image"></a>
+                              
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3301.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3302.jpg' %}" alt="image"></a>
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3303.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3304.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3305.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3306.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3307.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3308.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3309.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3310.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3311.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3312.jpg' %}" alt="image"></a>
+                              
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3313.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3314.jpg' %}" alt="image"></a>
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3315.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3316.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3317.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3318.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3319.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3321.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3322.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3323.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3325.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3327.jpg' %}" alt="image"></a>
+                              
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3328.jpg' %}" alt="image"></a>
+                                
+                               
+                              <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3330.jpg' %}" alt="image"></a>
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3331.jpg' %}" alt="image"></a>
+                                
+                                
+                             <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3332.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3333.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3334.jpg' %}" alt="image"></a>
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3335.jpg' %}" alt="image"></a>
+                                
+                               
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3346.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2017-ASquareLondon-3371.jpg' %}" alt="image"></a>
+                                
+                                
+                               <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0212.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href=""> <img src="{% static 'assets/img/department/VFW-2019-ASquareLondon-0218.jpg' %}" alt="image"></a>
+                                
+                                
+                                <!--<a href="" class="blog-btn">Read More +</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- End Features Area -->
+        
+         <!-- Start Newsletter Area -->
+
+         <div class="newsletter-area ptb-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="newsletter-content">
+                            <h2 style="color: gold;">Subscribe To Our Newsletter</h2>
+                            <p style="color:black;text-shadow:2px 2px 4px gold ;" >please enter your valid mail id</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <form class="newsletter-form">
+                            <input type="email" class="input-newsletter" placeholder="Enter Email Address" name="EMAIL" required autocomplete="off">
+
+                            <button type="submit">Subscribe Now</button>
+                            
+                            <div id="validator-newsletter" class="form-result"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <!-- Start Footer Area -->
+       <div class="footer-area pt-50 pb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="single-footer-widget">
+                         <h3>Behind the curtains</h3>
+                        <p>The biggest, stunning, and innovative fashion runway experience in the world of fashion. It also brings the race, color and humanity together at VFW by saying “We don’t stand for Discrimination”.</p>
+                        <ul class="social">
+                            <li>
+                                <a href="#" class="facebook" target="_blank">
+                                    <i class='bx bxl-facebook'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="twitter" target="_blank">
+                                    <i class='bx bxl-twitter'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.pinterest.com/pin/33143747235864963/" class="pinterest" target="_blank">
+                                    <i class='bx bxl-pinterest-alt'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="linkedin" target="_blank">
+                                    <i class='bx bxl-linkedin'></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-footer-widget pl-5">
+                        <h3>Quick Links</h3>
+
+                        <ul class="quick-links">
+                            <li>
+                                <a href="{% url 'index' %}">Home</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'about' %}">About Us</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'sponsors' %}">Sponsors</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'designers' %}">Designers</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'gallery' %}">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="register.html">Register</a>
+                            </li>
+                            
+                            <li>
+                                <a href="{% url 'contact' %}">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h3>Contact Us</h3>
+
+                        <ul class="footer-contact-info">
+                            <li>
+                                <i class='bx bxs-phone'></i>
+                               
+                                <a href="tel:025565104">(+971) 0000000</a>
+                            </li>
+                            <li>
+                                <i class='bx bx-envelope'></i>
+                                
+                                <a href="mailto:viefashionweek@gmail.com">viefashionweek@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class='bx bx-map'></i>
+                               
+                                
+<!----><br>  Dubai
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Area -->
+
+    <!-- Start Copy Right Area -->
+    <div class="copyright-area">
+        <div class="container">
+            <div class="copyright-area-content">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 col-md-12">
+                        <p>
+                            <i class="far fa-copyright"></i> 
+                            Copyright @2021 viefashionweek. All Rights Reserved by
+                           envvu
+                        </p>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Copy Right Area -->
+   
+   
+
+        <!-- Start Go Top Area -->
+        <div class="go-top">
+            <i class='bx bx-up-arrow-alt'></i>
+        </div>
+        <!-- End Go Top Area -->
+         <!-- Jquery Slim JS -->
+         <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+         <!-- Popper JS -->
+         <script src="{% static 'assets/js/popper.min.js' %}"></script>
+         <!-- Bootstrap JS -->
+         <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+         <!-- Meanmenu JS -->
+         <script src="{% static 'assets/js/jquery.meanmenu.js' %}"></script>
+         <!-- Nice Select JS -->
+         <script src="{% static 'assets/js/jquery.nice-select.min.js' %}"></script>
+         <!-- Owl Carousel JS -->
+         <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+         <!-- Magnific Popup JS -->
+         <script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
+         <!-- Odometer JS -->
+         <script src="{% static 'assets/js/odometer.min.js' %}"></script>
+         <!-- Jquery Appear JS -->
+         <script src="{% static 'assets/js/jquery.appear.min.js' %}"></script>
+         <!-- Ajaxchimp JS -->
+         <script src="{% static 'assets/js/jquery.ajaxchimp.min.js' %}"></script>
+         <!-- Form Validator JS -->
+         <script src="{% static 'assets/js/form-validator.min.js' %}"></script>
+         <!-- Contact JS -->
+         <script src="{% static 'assets/js/contact-form-script.js' %}"></script>
+         <!-- Wow JS -->
+         <script src="{% static 'assets/js/wow.min.js' %}"></script>
+         <!-- Custom JS -->
+         <script src="{% static 'assets/js/main.js' %}"></script>
+        
+       
+    </body>
+
+
+</html>

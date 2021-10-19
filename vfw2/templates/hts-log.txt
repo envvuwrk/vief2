@@ -1,0 +1,46 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 04 Oct 2021 15:24:32 at http://aspirefoodstuff.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://aspirefoodstuff.com/ -O1 "C:\Users\hp\djangopro\Newfolder\aspire" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:24:32	Warning: 	Cache: damaged cache, trying to repair
+15:24:32	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+15:24:32	Warning: 	Cache: error trying to open the cache
+15:29:09	Warning: 	Retry after error -4 (No data (connection closed)) at link aspirefoodstuff.com/assets/img/partner/7.jpg (from aspirefoodstuff.com/)
+15:29:09	Warning: 	Retry after error -4 (No data (connection closed)) at link aspirefoodstuff.com/assets/js/jquery.meanmenu.js (from aspirefoodstuff.com/)
+15:29:10	Warning: 	Retry after error -4 (No data (connection closed)) at link aspirefoodstuff.com/assets/fonts/Flaticon.eot? (from aspirefoodstuff.com/assets/css/flaticon.css)
+15:29:10	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/css/owl.video.play.png (from aspirefoodstuff.com/assets/css/owl.carousel.min.css)
+15:29:10	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/main-banner-bg-1.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:10	Warning: 	Retry after error -4 (No data (connection closed)) at link aspirefoodstuff.com/assets/img/main-banner-bg-2.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/detox-water/detox-water-bg.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/why-choose-bg.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/testimonial-bg.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/overview-bg.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/video-bg.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/client-bg.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/services-bg.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/page-banner/page-banner-2.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/page-banner/page-banner-3.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/page-banner/page-banner-4.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/blog/blog-1.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Warning: 	Retry after error -4 (No data (connection closed)) at link aspirefoodstuff.com/assets/img/blog/blog-2.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/blog/blog-3.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/blog/blog-7.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/blog/blog-8.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/blog/blog-9.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/top-products/top-products-1.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/top-products/top-products-2.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/top-products/top-products-3.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/top-products/top-products-7.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/top-products/top-products-4.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:12	Warning: 	Retry after error -4 (No data (connection closed)) at link aspirefoodstuff.com/assets/img/product/p24.jpg (from aspirefoodstuff.com/dry-fruits-nuts.html)
+15:29:14	Error: 	"Not Found" (404) at link aspirefoodstuff.com/assets/img/main-banner-bg-2.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:14	Warning: 	Retry after error -4 (No data (connection closed)) at link aspirefoodstuff.com/assets/img/blog/blog-2.jpg (from aspirefoodstuff.com/assets/css/style.css)
+15:29:16	Warning: 	Retry after error -4 (No data (connection closed)) at link aspirefoodstuff.com/assets/img/product/p24.jpg (from aspirefoodstuff.com/dry-fruits-nuts.html)
+15:29:16	Error: 	"No data (connection closed)" (-4) after 2 retries at link aspirefoodstuff.com/assets/img/blog/blog-2.jpg (from aspirefoodstuff.com/assets/css/style.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 47 seconds : 158 links scanned, 125 files written (6001636 bytes overall) [5735453 bytes received at 19984 bytes/sec], 403990 bytes transferred using HTTP compression in 38 files, ratio 20%, 2.4 requests per connection
+(24 errors, 11 warnings, 0 messages)
